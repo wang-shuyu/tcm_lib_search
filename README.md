@@ -28,10 +28,10 @@ the data file to tcm_lib_search/data directory
 We also pre-packaged the executables with all dependencies and supplementary
 datasets. The pre-packaged executables can be downloaded from
 
--[extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnroMyd7ZN7bSVFv)
--[tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnmX5fN_R3pG6S_s)
--[extract_formula for Windows]
--[tcm_lib_search for Windows]
+- [extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnroMyd7ZN7bSVFv)
+- [tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnmX5fN_R3pG6S_s)
+- [extract_formula for Windows]
+- [tcm_lib_search for Windows]
 
 ## Usage
 
