@@ -12,10 +12,11 @@ formula composition.
 We pre-packaged the executables with all dependencies and supplementary
 datasets. The pre-packaged executables can be downloaded from the links below
 
-- [extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnroMyd7ZN7bSVFv)
-- [tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lnmX5fN_R3pG6S_s)
 - [extract_formula for Windows]
 - [tcm_lib_search for Windows]
+- Formula extraction program: [extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lwAEZYuDoDv3u7LG)
+- Formula query program: [tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6ln7Rgf3UADKQQ0LN)
+
 
 ### Download and install from source code
 Alternatively, you can download the source code and build the package from scratch. This package has the following dependencies
@@ -30,8 +31,8 @@ download the tcm_lib_search package source code by running:
 git clone https://github.com/wang-shuyu/tcm_lib_search.git
 ```
 Next, you need to download the supplementary data file
-(tcm-lib-search-data-v1.0.tar.gz) from
-https://1drv.ms/f/s!Am5VX_Ff6cC6lm9qf73kVS3NNl7t, and uncompress the contents of
+(tcm_lib_search-data-v1.0.tar.gz) from
+https://1drv.ms/u/s!Am5VX_Ff6cC6lwEHbWi4PWpZhtKH, and uncompress the contents of
 the data file to tcm_lib_search/data directory.
 
 
@@ -90,19 +91,18 @@ The tcm_lib_search.py accepts the following options:
 Example 1: the command below searches formulas similar to the Xiao Yan San, and also prints the original text snippets where the formulas are recorded:
 
 ```bash
-tcm_lib_search.py -T '柴胡  甘草 茯苓 当归 白芍 白术‘
+tcm_lib_search.py -T '柴胡  甘草 茯苓 当归 白芍 白术'
 ```
-
 
 Example 2: the command below searches formulas similar to the Xiao Yan San with a cutoff 0.85, and also prints the original text snippets where the formulas are recorded:
 
 ```bash
-tcm_lib_search.py -T -s 0.85 '柴胡  甘草 茯苓 当归 白芍 白术‘
+tcm_lib_search.py -T -s 0.85 '柴胡  甘草 茯苓 当归 白芍 白术'
 ```
 
 Example 3: the command below searches top 5 formulas in the database that most
 similar to the Xiao Yan San, and also prints the original text snippets:
 
 ```bash
-tcm_lib_search.py -T -n 5 '柴胡  甘草 茯苓 当归 白芍 白术‘
+tcm_lib_search.py -T -n 5 '柴胡  甘草 茯苓 当归 白芍 白术'
 ```
