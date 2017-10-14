@@ -7,7 +7,7 @@ formula composition.
 
 ## Download software
 
-### Download pre-packaged executables
+### Download pre-packaged executable programs
 
 We pre-packaged the executables with all dependencies and supplementary
 datasets. The pre-packaged executables can be downloaded from the links below
@@ -18,6 +18,8 @@ datasets. The pre-packaged executables can be downloaded from the links below
 - Mac OS
     - Formula extraction program: [extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lwAEZYuDoDv3u7LG)
     - Formula query program: [tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6ln7Rgf3UADKQQ0LN)
+
+After downloading these programs, uncompress the zip file. These programs are designed to run in console mode. Windows user can use PowerShell (see https://technet.microsoft.com/en-us/library/ff629472.aspx on how to start PowerShell). Mac users can use the Terminal application (http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line). Basic familiarity with terminal commands are necessary for running these programs.
 
 ### Download and install from source code
 Alternatively, you can download the source code and build the package from scratch. This package has the following dependencies
