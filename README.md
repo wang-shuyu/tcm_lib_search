@@ -107,3 +107,10 @@ similar to the Xiao Yan San, and also prints the original text snippets:
 ```bash
 tcm_lib_search.py -T -n 5 '柴胡  甘草 茯苓 当归 白芍 白术'
 ```
+
+## Supplementary data
+The raw text files in this study is downloaded from the Medical Collections of Dai Zhi Ge: www.daizhige.org/医藏/
+
+The common herb dictionary is available at https://1drv.ms/t/s!Am5VX_Ff6cC6ln2leYeazGB3jGwv
+
+The SQLite database file for the extracted formulas is available at https://1drv.ms/u/s!Am5VX_Ff6cC6ln_6ZWrw76JFZqt0
