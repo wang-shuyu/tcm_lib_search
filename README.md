@@ -13,11 +13,11 @@ We pre-packaged the executables with all dependencies and supplementary
 datasets. The pre-packaged executables can be downloaded from the links below
 
 - Windows
-    - Formula extraction program: [extract_formula for Windows](https://1drv.ms/u/s!Am5VX_Ff6cC6lwPn_Fvdh5M6cc6K)
-    - Formula query program: [tcm_lib_search for Windows](https://1drv.ms/u/s!Am5VX_Ff6cC6lwJYzrc6d_ujIeMW)
+    - Formula extraction program: [extract_formula for Windows](https://figshare.com/articles/Standalone_executable_program_of_extract_formula_for_Windows_platform/5504956)
+    - Formula query program: [tcm_lib_search for Windows](https://figshare.com/articles/Standalone_executable_program_of_tcm_lib_search_for_Windows_platform_/5504968)
 - Mac OS
-    - Formula extraction program: [extract_formula for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6lwAEZYuDoDv3u7LG)
-    - Formula query program: [tcm_lib_search for Mac OS](https://1drv.ms/u/s!Am5VX_Ff6cC6ln7Rgf3UADKQQ0LN)
+    - Formula extraction program: [extract_formula for Mac OS](https://figshare.com/articles/Standalone_executable_program_of_extract_formula_for_Mac_OS_platform/5504950)
+    - Formula query program: [tcm_lib_search for Mac OS](https://figshare.com/articles/Standalone_executable_program_of_tcm_lib_search_for_Mac_OS_platform/5504953)
 
 After downloading these programs, uncompress the zip file. These programs are designed to run in console mode. Windows user can use PowerShell (see https://technet.microsoft.com/en-us/library/ff629472.aspx on how to start PowerShell). Mac users can use the Terminal application (http://blog.teamtreehouse.com/introduction-to-the-mac-os-x-command-line). Basic familiarity with terminal commands are necessary for running these programs.
 
@@ -35,7 +35,7 @@ git clone https://github.com/wang-shuyu/tcm_lib_search.git
 ```
 Next, you need to download the supplementary data file
 (tcm_lib_search-data-v1.0.tar.gz) from
-https://1drv.ms/u/s!Am5VX_Ff6cC6lwEHbWi4PWpZhtKH, and uncompress the contents of
+https://figshare.com/articles/data_directory_tarball_for_tcm_lib_search_package/5504944, and uncompress the contents of
 the data file to tcm_lib_search/data directory.
 
 
@@ -49,7 +49,7 @@ The scripts extract_formula.py takes a text file of traditional Chinese
 medicine literature as input, and extracts all formula from that book.
 
 The basic command to invoke this command is as follows: ```extract_formula.py
-<filename>```. For example, you can download the text file of Shan Han Lun from https://1drv.ms/t/s!Am5VX_Ff6cC6lnvXDrNoBHhqNZkB. After you get the text file 伤寒论-汉-张仲景-Shan-Han-Lun.txt,
+<filename>```. For example, you can download the text file of Shan Han Lun from https://figshare.com/articles/Shan_Han_Lun/5504194. After you get the text file 伤寒论-汉-张仲景-Shan-Han-Lun.txt,
 run the *extract_formula.py* program as following, you should see the list of extracted formulas.
 
 ```bash
@@ -113,6 +113,6 @@ tcm_lib_search.py -T -n 5 '柴胡  甘草 茯苓 当归 白芍 白术'
 ## Supplementary data
 The raw text files in this study is downloaded from the Medical Collections of Dai Zhi Ge: www.daizhige.org/医藏/
 
-The common herb dictionary is available at https://1drv.ms/t/s!Am5VX_Ff6cC6ln2leYeazGB3jGwv
+The common herb dictionary is available at https://figshare.com/articles/Dictionary_of_common_herbs_used_in_traditional_Chinese_medicine/5504935
 
-The SQLite database file for the extracted formulas is available at https://1drv.ms/u/s!Am5VX_Ff6cC6ln_6ZWrw76JFZqt0
+The SQLite database file for the extracted formulas is available at https://figshare.com/articles/SQLite_database_file_with_extracted_herbal_formulas_and_source_information/5504941
