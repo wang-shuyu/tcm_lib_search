@@ -81,7 +81,7 @@ For example, the command below searches for literatures that described formulas
 similar to Xiao Yan San:
 
 ```bash
-tcm_lib_search.py '柴胡  甘草 茯苓 当归 白芍 白术‘
+tcm_lib_search.py '柴胡  甘草 茯苓 当归 白芍 白术'
 ```
 
 The tcm_lib_search.py accepts the following options:
